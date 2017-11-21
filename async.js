@@ -1,9 +1,9 @@
-const request = require('request');
+const fs = require('fs');
 
-const test = () => {
-  
-}
-//START OF PROGRAM
-console.log("Hitting google");
-test();
-console.log("Some other work");
+const readFromFile = (fileName)=>{
+  // WRITE CODE HERE
+};
+
+console.log('START');
+const data = readFromFile('sample.txt');
+console.log('END')
